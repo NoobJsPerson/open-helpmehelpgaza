@@ -1,0 +1,22 @@
+{
+    "name": "Open HelpMeHelpGaza",
+    "version": "1.0.0",
+	"icons": {
+		"64": "icon-64.png"
+	},
+	"background": {
+		"service_worker": "background.js"
+	  },
+    "description": "Help Families in Gaza by opening helpmehelpgaza.repl.co on startup",
+    "manifest_version": 3,
+    "author": "Amine El Baghdadi",
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "Open HelpMeHelpGaza"
+    },
+	"permissions": ["storage","activeTab", "scripting", "tabs"],
+	"options_ui": {
+		"open_in_tab": true,
+		"page": "options.html"
+	}
+}
