@@ -1,1 +1,1 @@
-window.open("https://helpmehelpgaza.repl.co","_blank")
+window.open("https://helpmehelpgaza.us.to","_blank")
